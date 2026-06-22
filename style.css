@@ -90,9 +90,12 @@ body {
   margin-top: 1.875rem;
 }
 
+a {
+  color: var(--primary-font-color);
+}
+
 .social-media-links a {
   text-decoration: none;
-  color: var(--primary-font-color);
   background-color: var(--btn-bg);
   padding: 0.9375rem 0;
   text-align: center;
