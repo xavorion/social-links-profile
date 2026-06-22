@@ -122,7 +122,7 @@ a {
   .social-media-links a:hover,
   .social-media-links a:focus {
     background-color: var(--secondary-font-color);
-    color: black;
+    color: var(--container-bg);
   }
 
 
