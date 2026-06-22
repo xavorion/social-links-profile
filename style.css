@@ -13,9 +13,9 @@
   *,
   *::before,
   *::after {
-    animation: none !important;
-    transition: none !important;
-    scroll-behavior: auto !important;
+    animation: none;
+    transition: none;
+    scroll-behavior: auto;
   }
 }
 
@@ -45,7 +45,8 @@ body {
   margin: 0 auto;
   color: var(--primary-font-color);
   background-color: var(--container-bg);
-  padding: 1.875rem 1.5625rem;
+  padding: clamp(1.5rem, 4vw, 1.875rem)
+         clamp(1.25rem, 3vw, 1.5625rem);
   border-radius: 0.625rem;
 }
 
@@ -101,7 +102,7 @@ body {
 }
 
 a {
-  color: var(--primary-font-color);
+  color: white;
 }
 
 .social-media-links a {
