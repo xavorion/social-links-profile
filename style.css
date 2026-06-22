@@ -54,7 +54,7 @@ body {
     justify-content: center;
     width: 100%;
     max-width: 10.625rem;
-    margin-bottom: 2.1875rem;
+    margin-block-end: 2.1875rem;
   }
 
   .img-container img {
@@ -75,7 +75,7 @@ body {
   font-size: var(--font-size);
   color: var(--secondary-font-color);
   margin-top: 0.714em;
-  margin-bottom: 2.5em;
+  margin-block-end: 2.5em;
 }
 
 /* Bio */
@@ -87,7 +87,7 @@ body {
 
 .social-wrapper {
   width: 100%;
-  margin-top: 1.875rem;
+  margin-block-start: 1.875rem;
 }
 
 a {
