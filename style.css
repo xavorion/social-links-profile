@@ -40,13 +40,12 @@ body {
 /* Main Container */
 
 .main-container {
-  width: 90%;
-  max-width: 29.5625rem;
+  width: min(90%, 29.5625rem);
   margin: 0 auto;
   color: var(--primary-font-color);
   background-color: var(--container-bg);
   padding: clamp(1.5rem, 4vw, 1.875rem)
-         clamp(1.25rem, 3vw, 1.5625rem);
+           clamp(1.25rem, 3vw, 1.5625rem);
   border-radius: 0.625rem;
 }
 
@@ -64,7 +63,6 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 10.625rem;
     margin-block-end: 2.1875rem;
   }
 
