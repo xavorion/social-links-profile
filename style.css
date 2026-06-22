@@ -9,6 +9,16 @@
   --font-size: 0.875rem
 }
 
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -24,7 +34,7 @@ body {
   align-items: center;
   min-height: 100vh;
   position: relative;
-  padding: 3.125rem 0;
+  padding: clamp(2rem, 5vw, 3.125rem) 0;
 }
 
 /* Main Container */
@@ -74,7 +84,7 @@ body {
   font-weight: 900;
   font-size: var(--font-size);
   color: var(--secondary-font-color);
-  margin-top: 0.714em;
+  margin-block-start: 0.714em;
   margin-block-end: 2.5em;
 }
 
